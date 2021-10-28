@@ -1,0 +1,79 @@
+div.main-container{
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input[type="text"]{
+    display: block;
+    width: 40vw;
+    border-radius: 5px;
+}
+
+input[type="checkbox"]{
+    display: block;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+div.top-heading{
+display: grid;
+grid-template-columns: 0.8fr 0.5fr 1fr 1.1fr 0.1fr;
+text-align: center;
+margin-top: 30px;
+border-bottom: 1px solid rgb(193, 184, 184);
+margin-right: 20px;
+margin-left: 20px;
+}
+
+.item{
+  display: grid;
+  grid-template-columns: 0.8fr 0.5fr 1fr 1fr 0.1fr;
+  gap: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+    border-bottom: 1px solid black;
+    padding: 7px;
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+div.item button.delete{
+    width: 50px;
+    margin: auto;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+
+div.search-box{
+    margin: 10px;
+    padding: 5px;
+}
+
+div.pagination button{
+    margin: 10px;
+}
+
+div.make-flex{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+div.delete-selected{
+    position: relative;
+    left: -100px;
+}
+
+div.arrow-left{
+    margin: 10px;
+}
+
+div.arrow-right{
+    margin: 10px;
+}

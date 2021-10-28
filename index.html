@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New ADMIN UI</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- JavaScript -->
+    <script src="./main.js" defer></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" defer
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Fontawesome Javascript -->
+    <script src="https://kit.fontawesome.com/9c1d242d7a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <h1 class="text-center display-1">Welcome to Admin UI</h1>
+    <hr>
+
+    <div class="main-container">
+
+        <div class="search-container">
+            <div class="search-box">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Search by Name (Case sensitive)">
+            </div>
+
+            <div class="search-box">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Search by email (Case sensitive)">
+            </div>
+
+            <div class="search-box">
+                <label for="role">Role</label>
+                <input type="text" id="role" placeholder="Search by role (Case sensitive)">
+            </div>
+        </div>
+
+
+        <div class="top-heading">
+
+            <input type="checkbox">
+            <div> <strong>Name</strong> </div>
+            <div> <strong>Email</strong></div>
+            <div> <strong>Role</strong></div>
+            <div> <strong>Actions</strong></div>
+
+        </div>
+
+        <!-- Item Container -->
+        <div class="item-container">
+
+
+        </div>
+
+
+        <div class="make-flex button-container">
+            <div class="delete-selected">
+                <button class="btn btn-danger">Delete Selected</button>
+            </div>
+
+            <div class="make-flex pagination-container">
+                <div class="arrow-left"></div>
+
+                <div class="pagination"></div>
+
+                <div class="arrow-right"></div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
